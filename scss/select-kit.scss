@@ -55,7 +55,7 @@ Select kit theming
         &[data-value="all-categories"],
         &[data-value="no-categories"] {
           color: var(--modal-fg);
-          font-size: 0.875em;
+          font-size: 0.975em;
           font-weight: 500;
           padding: 6px 36px;
           width: max-content;
@@ -86,12 +86,12 @@ Select kit theming
           background-color: unset;
           color: inherit;
           font-weight: 400;
-          font-size: 0.875em;
+          font-size: 0.975em;
           padding: 0px 10px;
         }
         .topic-count {
           color: rgba(0, 0, 0, 0.8);
-          font-size: 0.75em;
+          font-size: 0.85em;
           margin-left: auto;
         }
       }
@@ -119,6 +119,7 @@ Select kit theming
     }
     &.period-chooser {
       .period-chooser-header {
+        height: 90px;
         background-color: transparent;
         display: inline-flex;
         margin-left: -12px;
@@ -151,7 +152,7 @@ Select kit theming
               display: block;
             }
             .top-date-string {
-              font-size: 0.924em !important;
+              font-size: 1.024em !important;
               text-transform: none !important;
             }
           }
@@ -179,7 +180,7 @@ Select kit theming
       .icons {
         display: revert;
         .d-icon {
-          font-size: 1em;
+          font-size: 1.1em;
         }
       }
       .texts {
@@ -212,7 +213,7 @@ Select kit theming
         background: var(--modal-bg);
         border: 1px solid #dadada;
         border-radius: 2px;
-        font-size: 0.75em;
+        font-size: 0.85em;
         padding-left: 8px;
         width: 100%;
       }
@@ -220,6 +221,10 @@ Select kit theming
   }
   .select-kit-collection {
     background-color: var(--modal-bg);
+
+    &:hover .select-kit-row.is-highlighted:hover {
+      background-color: var(--tertiary);
+    }
   }
   .select-kit-header {
     .selected-name {
@@ -235,7 +240,7 @@ Select kit theming
     .category-name,
     .name {
       color: var(--modal-fg);
-      font-size: 0.875em !important;
+      font-size: 0.975em !important;
     }
     &.is-highlighted {
       background-color: var(--community-blue);
@@ -272,8 +277,8 @@ as Discourse's primary form of navigation between filters */
       border: 0 !important;
       color: inherit;
       font-weight: normal;
-      font-size: 0.875em;
-      line-height: 1.2em;
+      font-size: 0.975em;
+      line-height: 1.3em;
       letter-spacing: 0.03em;
       padding: 0;
       &.mini-tag-chooser-header {
@@ -298,6 +303,8 @@ as Discourse's primary form of navigation between filters */
     .select-kit-body {
       @include hud-shadow();
       padding: 8px 0;
+      inset: -2px auto auto -8px !important;
+      position: absolute !important;
     }
     .select-kit-collection {
       min-height: 0vh;
@@ -321,7 +328,7 @@ as Discourse's primary form of navigation between filters */
       background: var(--surface-low-contrast);
       border-bottom: 1px solid var(--surface-high-contrast);
       .d-icon {
-        font-size: 0.5em;
+        font-size: 0.6em;
         margin-right: 0.5em;
       }
     }

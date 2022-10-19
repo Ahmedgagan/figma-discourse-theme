@@ -55,17 +55,18 @@ items trigger a dropdown */
     /* These are Latest, Unread, Top, Users, New, Review, etc */
     a.categories-link {
       color: var(--modal-fg) !important;
-      font-size: 0.875em;
+      font-size: 0.975em;
       font-weight: 500;
       padding: 5px 0 !important;
       &:hover,
       &:focus {
+        color: white !important;
         background-color: transparent !important;
       }
     }
     &.category-link {
       color: var(--modal-fg) !important;
-      font-size: 0.875em;
+      font-size: 0.975em;
       height: 30px;
       width: 100%;
       &:hover {
@@ -149,11 +150,11 @@ items trigger a dropdown */
         overflow: visible;
         padding: 4px 0px;
         .d-label {
-          font-size: 0.875em;
+          font-size: 0.975em;
         }
         .d-icon {
           color: var(--fg-high-contrast);
-          font-size: 12px;
+          font-size: 14px;
           padding: 2px;
           margin-left: -30px;
           margin-right: 8px;
@@ -170,7 +171,7 @@ items trigger a dropdown */
 /* Search menu */
 .search-menu {
   input[type="text"] {
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 400;
     margin-bottom: 0px;
     padding: 8px 8px;
@@ -188,7 +189,7 @@ items trigger a dropdown */
     padding: 0 0;
     .d-label {
       color: var(--fg-medium-contrast);
-      font-size: 0.875em;
+      font-size: 0.975em;
       font-weight: 500;
       text-decoration: underline;
       text-transform: capitalize;
@@ -267,7 +268,7 @@ items trigger a dropdown */
       background-color: transparent;
       color: var(--fg-medium-contrast);
       display: block;
-      font-size: 0.875em;
+      font-size: 0.975em;
       margin-bottom: 4px;
       padding: 4px 12px;
       &:hover {
@@ -296,7 +297,7 @@ items trigger a dropdown */
         color: var(--fg-high-contrast);
         column-gap: 8px;
         display: inline-grid !important;
-        font-size: 1em;
+        font-size: 1.1em;
         grid-template-columns: 6px 16px 1fr;
         margin: 0;
         padding: 0 0;
@@ -341,7 +342,7 @@ items trigger a dropdown */
       .d-icon {
         align-self: flex-start;
         color: var(--fg-medium-contrast);
-        font-size: 16px;
+        font-size: 19px;
         margin-right: 8px;
         margin-top: 2px;
         padding-top: 0;
@@ -353,11 +354,6 @@ items trigger a dropdown */
       a {
         color: var(--fg-high-contrast);
       }
-    }
-  }
-  #quick-access-notifications {
-    li.read {
-      display: none;
     }
   }
 }
@@ -394,7 +390,7 @@ items trigger a dropdown */
     }
     .d-icon {
       color: inherit;
-      font-size: 12px;
+      font-size: 14px;
       margin: 0px 8px 0px -8px;
       order: -1;
       transition: color 0s;

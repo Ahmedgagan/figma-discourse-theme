@@ -10,7 +10,7 @@ CSS Mixins
   border-radius: 8px;
   color: $txt;
   font-weight: 700;
-  font-size: 1.125em;
+  font-size: 1.225em;
   letter-spacing: 0.03em;
   line-height: 1;
   padding: 16px 24px;
@@ -30,7 +30,7 @@ CSS Mixins
   color: $txt;
   display: inline-flex;
   font-weight: 700;
-  font-size: 0.875em;
+  font-size: 0.975em;
   height: 30px;
   line-height: 1;
   @if $bg == transparent {
@@ -61,7 +61,7 @@ CSS Mixins
   background-color: var(--surface-low-contrast);
   border-radius: 8px;
   display: inline-flex !important;
-  font-size: 0.8125em;
+  font-size: 0.9125em;
   font-weight: 500;
   min-width: 30px;
   padding: 0 0;

@@ -26,7 +26,7 @@ making the # selector valid and extremely precise for this.
   z-index: 9999;
   .title {
     h3 {
-      font-size: 1em;
+      font-size: 1.1em;
       font-weight: 500;
       text-transform: capitalize;
     }
@@ -34,7 +34,7 @@ making the # selector valid and extremely precise for this.
   input[type="text"] {
     border: 1px solid var(--surface-high-contrast);
     border-radius: 2px;
-    font-size: 0.875em;
+    font-size: 0.975em;
     padding: 4px 8px;
     transition: border-color 0.15s ease-out;
     &:hover {
@@ -57,7 +57,7 @@ making the # selector valid and extremely precise for this.
         margin-right: 12px;
         .d-icon {
           color: var(--fg-high-contrast);
-          font-size: 16px;
+          font-size: 19px;
         }
         .d-icon-fab-twitter-square {
           color: var(--fg-high-contrast);
@@ -69,7 +69,7 @@ making the # selector valid and extremely precise for this.
       .reply-as-new-topic {
         background-color: transparent;
         border-radius: 3px;
-        font-size: 0.875em;
+        font-size: 0.975em;
         padding: 4px;
         transition: all 0.15s ease-in;
         &:hover {
@@ -123,7 +123,7 @@ making the # selector valid and extremely precise for this.
     }
     .metadata-row {
       margin-top: 0;
-      font-size: 0.875em;
+      font-size: 0.975em;
       h3:not(:last-of-type)::after {
         content: "·";
         display: inline-block;
@@ -162,23 +162,23 @@ making the # selector valid and extremely precise for this.
       align-items: center;
       display: inline-flex;
       flex-basis: 100%;
-      font-size: 1.25em;
+      font-size: 1.35em;
       font-weight: 500;
       a {
         color: var(--fg-high-contrast);
       }
       span {
-        font-size: 1em;
+        font-size: 1.1em;
       }
     }
     h2 {
       display: inline-block;
-      font-size: 0.875em;
+      font-size: 0.975em;
       font-weight: 400;
       &.full-name {
         align-items: center;
         color: var(--fg-medium-contrast);
-        font-size: 0.875em;
+        font-size: 0.975em;
         font-weight: 500;
         padding-right: 1ch;
       }
@@ -205,7 +205,7 @@ making the # selector valid and extremely precise for this.
         }
       }
       span.d-button-label {
-        font-size: 0.875em;
+        font-size: 0.975em;
         padding-left: 4px;
         order: 1;
         text-align: right;
@@ -285,7 +285,7 @@ making the # selector valid and extremely precise for this.
         }
         span {
           color: var(--modal-fg);
-          font-size: 0.875em;
+          font-size: 0.975em;
         }
       }
     }

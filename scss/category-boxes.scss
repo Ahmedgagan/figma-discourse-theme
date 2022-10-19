@@ -35,13 +35,13 @@ Category boxes & other related ephemera
   .group-box {
     background-color: var(--surface-low-contrast);
     border: 0 !important;
-    border-radius: 12px;
+    border-radius: 4px;
     color: var(--fg-high-contrast);
     padding: 0px;
-    &:hover {
-      box-shadow: -8px 8px 0 0 black !important;
-      transform: translate(8px, -8px);
-    }
+    // &:hover {
+    //   box-shadow: -8px 8px 0 0 black !important;
+    //   transform: translate(8px, -8px);
+    // }
     .group-avatar-flair {
       grid-area: group-image;
       .avatar-flair {
@@ -68,7 +68,7 @@ Category boxes & other related ephemera
           width: unset;
           span {
             color: var(--fg-high-contrast);
-            font-size: 1.125em;
+            font-size: 1.225em;
             font-weight: 600;
             letter-spacing: 0.03em;
             flex-shrink: 1;
@@ -79,7 +79,7 @@ Category boxes & other related ephemera
           .group-user-count {
             color: var(--fg-medium-contrast);
             flex-shrink: 0;
-            font-size: 0.875em;
+            font-size: 0.975em;
             padding-top: 2px;
           }
         }
@@ -111,10 +111,6 @@ Category boxes & other related ephemera
     overflow: hidden;
     transition: all ease-out 0.2s;
     width: initial;
-    &:hover {
-      box-shadow: -8px 8px 0 0 black;
-      transform: translate(8px, -8px);
-    }
     &.muted {
       .category-details {
         grid-column: 2;
@@ -129,13 +125,22 @@ Category boxes & other related ephemera
       padding: 0;
       .category-logo {
         align-self: center;
-        background-color: var(--fg-low-contrast);
+        background-color: var(--category-color);
         display: inline-block;
         width: 132px;
         height: 132px;
-        img {
+
+        .logo {
+          display: flex;
+          justify-content: center;
+          align-self: center;
           height: 100%;
-          width: 100%;
+
+          img {
+            height: 64px;
+            width: 64px;
+            align-self: center;
+          }
         }
       }
       .category-details {
@@ -147,8 +152,7 @@ Category boxes & other related ephemera
     align-items: baseline;
     color: var(--fg-high-contrast);
     display: inline-flex;
-    font-family: $font-stack;
-    font-size: 1.125em;
+    font-size: 1.225em;
     font-weight: 600;
     letter-spacing: 0.03em;
     line-height: 140%;
@@ -156,10 +160,10 @@ Category boxes & other related ephemera
     text-align: left;
     .d-icon {
       color: var(--fg-high-contrast);
-      font-size: 16px;
-      height: 16px !important;
+      font-size: 19px;
+      height: 19px !important;
       margin-right: 4px !important;
-      width: 16px !important;
+      width: 19px !important;
     }
   }
   .category-box-heading {
@@ -167,8 +171,7 @@ Category boxes & other related ephemera
   }
   .description {
     color: var(--fg-low-contrast);
-    font-family: $font-stack;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 0.03em;
@@ -218,7 +221,7 @@ Category boxes & other related ephemera
       margin-bottom: 4px;
     }
     h3 {
-      font-size: 1em;
+      font-size: 1.1em;
     }
     .description {
       display: none;

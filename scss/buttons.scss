@@ -8,7 +8,7 @@ Buttons
   background-color: var(--surface-low-contrast);
   border-radius: 6px;
   display: inline-flex;
-  font-size: 0.875em;
+  font-size: 0.975em;
   font-weight: 500;
   height: 30px;
   min-width: 30px;
@@ -16,7 +16,8 @@ Buttons
   text-transform: capitalize;
   transition: none;
   &[href] {
-    color: var(--fg-high-contrast);
+    background-color: var(--primary);
+    color: var(--secondary);
   }
   &.no-text {
     .d-icon {
@@ -53,13 +54,13 @@ Buttons
   /* Icons */
   .d-icon {
     color: inherit;
-    font-size: 16px;
+    font-size: 19px;
     margin-right: 6px;
     transition: none;
   }
   .d-icon-caret-down,
   .d-icon-caret-up {
-    font-size: 12px;
+    font-size: 14px;
     padding-left: 6px !important;
   }
 }
@@ -111,7 +112,7 @@ Buttons
   }
   .d-icon {
     color: inherit !important;
-    font-size: 16px;
+    font-size: 19px;
   }
 }
 
@@ -164,7 +165,7 @@ Buttons
   &:visited {
     color: var(--fg-medium-contrast);
   }
-  font-size: 0.875em;
+  font-size: 0.975em;
   font-weight: 500;
   margin-left: 4px;
   padding: 4px 16px;
@@ -177,4 +178,19 @@ Buttons
 .select-kit.single-select .select-kit-header:not(.btn):active {
   outline: none !important;
   border-color: var(--surface-high-contrast) !important;
+}
+
+.subscribe-buttons .btn-discourse-subscriptions-subscribe {
+  font-size: 0;
+  height: unset;
+  padding: 16px 24px;
+  margin-right: 10px;
+  width: unset;
+}
+
+.subscribe-buttons .btn-discourse-subscriptions-subscribe .interval,
+.subscribe-buttons .btn-discourse-subscriptions-subscribe .amount {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
 }

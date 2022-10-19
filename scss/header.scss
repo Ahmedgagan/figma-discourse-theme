@@ -21,8 +21,7 @@ is shown.
     @if $header-text {
       align-items: center;
       display: inline-flex;
-      font-family: $heading-stack;
-      font-size: 1.5em;
+      font-size: 1.6em;
       font-weight: 500;
       height: 42px;
       line-height: 1em;
@@ -51,6 +50,7 @@ is shown.
   .header-buttons {
     grid-column: 2;
     margin-top: 0;
+    align-self: center;
     .btn {
       @include text-button-large();
     }
@@ -59,8 +59,7 @@ is shown.
       color: var(--bold-fg);
     }
     .login-button {
-      font-size: 1.125em !important;
-      height: revert;
+      font-size: 1.225em !important;
       margin-left: 16px;
       .d-icon {
         display: none;
@@ -174,16 +173,15 @@ Forum" header on desktop. */
     .banner-title {
       color: black !important;
       cursor: default;
-      font-family: $font-stack;
       margin-bottom: 0;
       text-align: left;
     }
     .banner-subtitle {
-      font-size: 1em;
+      font-size: 1.1em;
       font-weight: 500;
     }
     .banner-title {
-      font-size: 2.5em;
+      font-size: 2.6em;
       font-weight: 600;
       line-height: 1em;
       margin-bottom: 0.4em;
@@ -207,14 +205,12 @@ Forum" header on desktop. */
     width: 90vw !important;
     h1 {
       cursor: default;
-      font-family: $font-stack;
-      font-size: 2.5em;
+      font-size: 2.6em;
       font-weight: 600;
     }
     .category-title-description {
       cursor: default;
-      font-family: $font-stack;
-      font-size: 1em;
+      font-size: 1.1em;
       font-weight: 500;
     }
   }

@@ -17,14 +17,13 @@ https://www.figma.com/ and will need maintenance in the future */
   .footer-links {
     h6 {
       color: var(--fg-high-contrast);
-      font-family: var(--font-family);
-      font-size: 0.875em;
+      font-size: 0.975em;
       font-weight: 700;
       margin: 16px 0;
     }
     a {
       color: #282828;
-      font-size: 0.875em;
+      font-size: 0.975em;
       font-weight: 400;
       line-height: 2.25em;
       margin-bottom: 6px;
@@ -45,8 +44,7 @@ https://www.figma.com/ and will need maintenance in the future */
       text-decoration: underline;
     }
     .social-link {
-      font-family: var(--font-family);
-      font-size: 0.875em;
+      font-size: 0.975em;
       line-height: 1.5;
       letter-spacing: 0.02;
       font-feature-settings: "salt" on, "ss01" on, "ss02" on, "ss03" on;
